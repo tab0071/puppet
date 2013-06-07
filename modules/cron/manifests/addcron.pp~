@@ -1,0 +1,8 @@
+class cron::addcron {
+    cron { ntpdate:
+        command => "/usr/sbin/ntpdate tiger.sina.com.cn >/dev/null",
+        user => root,
+        hour => '18',
+        minute => '1'
+        }
+}

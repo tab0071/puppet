@@ -1,0 +1,5 @@
+# [files]
+#  path /var/lib/puppet/files
+#  allow *.example.com
+#  deny *.evil.example.com
+#  allow 192.168.0.0/24
